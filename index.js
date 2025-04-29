@@ -49,7 +49,7 @@ citySearch.addEventListener("submit",(e) =>{
 
 const getweatherData= async() =>{
     const weatherUrl =
-     `https://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=4ff59750c9cab033c029055e4fd62ed7`;
+     `api-hidden${city}`;
 
 try{
     const res = await fetch(weatherUrl);
