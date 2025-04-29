@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+     rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section class="container">
+<div class="weatherheader">
+    <form class="weathsearch">
+        <i class="fa-solid fa-magnifying-glass"></i>
+   <input type="text" class="city_name" placeholder="search your city">
+    </form>
+
+</div>
+<div class="waethbody">
+<h1 class="weathcity"></h1>
+<p class="weathdatetime"></p>
+<div class="weathdata">
+    <p class="weathforecast"></p>
+    <div class="weathicon"></div>
+</div>
+<p class="weathtemp"></p>
+<div class="weathminmax">
+    <p class="weathmin"></p>
+    <p class="weathmax"></p>
+</div>
+</div>
+
+<section class="wethinfo">
+    <!-- feels like -->
+<div class="weathcard">
+    <i class="fa-solid fa-temperature-high"></i>
+<div>
+    <p>Feels like</p>
+    <p class="weathfeelslike">15&#176</p>
+</div>
+</div>
+<!-- humidity -->
+<div class="weathcard">
+    <i class="fa-solid fa-droplet"></i>
+<div>
+    <p>Humidity</p>
+    <p class="weathhumidity">15&#176</p>
+</div>
+</div>
+<!-- wind -->
+<div class="weathcard">
+    <i class="fa-solid fa-wind"></i>
+<div>
+    <p>wind</p>
+    <p class="wind">15&#176</p>
+</div>
+</div>
+<!-- pressure -->
+<div class="weathcard">
+    <i class="fa-solid fa-thermometer"></i>
+<div>
+    <p>pressure</p>
+    <p class="pressure">15&#176</p>
+</div>
+</div>
+</section>
+</section>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background: black;
+    color: black;
+}
+
+
+.container{
+    background-color: wheat;
+    color: black;
+    padding: 2rem;
+    width: 40%;
+    margin: 4rem auto;
+    border-radius: 10px;
+}
+
+
+.weatherheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input{
+    border: none;
+    background-color: black;
+    color: wheat;
+    outline: none;
+    padding: 0.5rem 2.5rem;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2)0px 7px 29px 0px;
+}
+
+input::placeholder{
+    color: aliceblue;
+}
+.weathsearch{
+    position: relative;
+}
+
+.weathsearch i{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 15px;
+    color:wheat;
+}
+
+.wethinfo{
+    border: 2px solid black;
+    margin: 20px;
+    padding: 10px;
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.weathminmax{
+    border: 2px solid black; 
+    margin: 20px;
+    text-align: center;
+}
+
+.weathdata{
+    text-align: center;
+    border: 2px solid black; 
+    margin: 20px;
+}
+
+.waethbody{
+    text-align: center;
+    border: 2px solid black; 
+    margin: 20px;
+   
+}
